@@ -1,22 +1,35 @@
 # Ruby on Rails 💎
-
+---
 ## Hugo Farji
 ### Desarrollador web en Wolox
+---
+# Que necesito saber antes de empezar?
 
-# Convention over configuration
+## Developer happiness
+
++++
+
+## Convention over configuration
 
 +++
 
 ## Ruby 💔 Windows
 
-# Generators
++++
 
-# Gemas
+---
 
+# Larga vida a MVC!
+
+---
 # Modelo!
-
+---
 # Controlador!
-
+---
 # Vista!
-
+---
+# Generators
+---
+# Gemas
+---
 # Demo
