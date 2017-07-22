@@ -21,6 +21,18 @@
 
 ---
 # Modelo!
+
++++
+
+- Usuarios
+- Posts |
+- Comentarios |
+
++++
+## Como creo un modelo?
+```
+rails generate model nombre_del_modelo campo_del_modelo_1 campo_del_modelo_2 ...
+```
 ---
 # Controlador!
 ---
