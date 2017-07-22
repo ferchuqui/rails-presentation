@@ -17,8 +17,6 @@
 
 +++
 
----
-
 # Larga vida a MVC!
 
 ---
