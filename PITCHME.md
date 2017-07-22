@@ -13,7 +13,7 @@
 
 +++
 
-## Ruby 💔 Windows
+# Ruby 💔 Windows
 
 +++
 
