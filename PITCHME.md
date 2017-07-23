@@ -71,5 +71,20 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 ## Bundler, my old friend
 
++++
+
+```
+bundle install
+```
 ---
 # Demo
+
+---
+
+# Muchas gracias!
+
++++
+
+- https://gitpitch.com/hdf1986/rails-presentation
+- http://guides.rubyonrails.org/getting_started.html
+-
