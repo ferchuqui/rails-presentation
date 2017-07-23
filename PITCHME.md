@@ -67,7 +67,7 @@ end
   <p><%= post.content %></p>
 <% end %>
 ```
-
+---
 # Rutas
 
 ```
