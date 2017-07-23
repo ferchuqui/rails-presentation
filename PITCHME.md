@@ -85,6 +85,8 @@ bundle install
 
 +++
 
+## Tarea para el hogar
 - https://gitpitch.com/hdf1986/rails-presentation
 - http://guides.rubyonrails.org/getting_started.html
--
+- https://www.profesionalreview.com/2016/04/22/como-instalar-ubuntu-16-04-lts-en-virtualbox/
+- https://github.com/Wolox/tech-guides/blob/master/useful-scripts/docs/setup-environment.md
