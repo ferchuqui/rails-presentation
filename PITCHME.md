@@ -49,7 +49,7 @@ end
 # rails generate controller nombre accion
   rails generate controller welcome index
 ```
-+++
+
 
 ---
 # Vista!
