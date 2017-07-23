@@ -2,6 +2,7 @@
 ---
 ## Hugo Farji
 ### Desarrollador web en Wolox
+#### Github/twitter: @hdf1986
 ---
 # Que necesito saber antes de empezar?
 +++
@@ -33,6 +34,12 @@
 ```
 rails generate model nombre_del_modelo campo_del_modelo_1 campo_del_modelo_2 ...
 ```
++++
+```
+# app/models/post.rb
+class Post < ApplicationRecord
+end
+```
 ---
 # Controlador!
 
@@ -42,7 +49,8 @@ rails generate model nombre_del_modelo campo_del_modelo_1 campo_del_modelo_2 ...
 # rails generate controller nombre accion
   rails generate controller welcome index
 ```
-
++++
+# app/views/welcome/index.html.erb
 
 +++
 
@@ -52,6 +60,25 @@ rails generate model nombre_del_modelo campo_del_modelo_1 campo_del_modelo_2 ...
 - Archivos .html.erb
 - Por convención en views/nombre_controller/nombre_accion.html.erb |
 - Se puede utilizar tambien haml y/o slim como lenguaje de templating |
+
++++
+
+```
+<!-- app/views/welcome/index.html.erb -->
+<% @posts.each do |post| %>
+  <h1><%= post.title %></h1>
+  <p><%= post.content %></p>
+<% end %>
+```
+
+# Rutas
+
+```
+# config/routes.rb
+Rails.application.routes.draw do
+  root 'welcome#index'
+end
+```
 ---
 # Gemas
 
