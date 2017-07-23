@@ -63,8 +63,10 @@ end
 ```
 <!-- app/views/welcome/index.html.erb -->
 <% @posts.each do |post| %>
-  <h1><%= post.title %></h1>
-  <p><%= post.content %></p>
+  <h1><%= post.title %>
+  </h1>
+  <p><%= post.content %>
+  </p>
 <% end %>
 ```
 ---
