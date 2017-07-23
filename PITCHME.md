@@ -50,9 +50,6 @@ end
   rails generate controller welcome index
 ```
 +++
-# app/views/welcome/index.html.erb
-
-+++
 
 ---
 # Vista!
